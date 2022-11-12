@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <title>Sheribane Hetemi - Portfolio</title>
+</head>
+<body>
+    <div class="parent">
+        <div class="div1" >
+            <ul>
+                <li><a href="#div2" class="active">Home</a></li>
+                <li><a href="#div4">Skills</a></li>
+                <li><a href="#container">Contact</a></li>
+            </ul> </div>
+
+        <div class="div2" id="div2">
+            <img src="./images/sheribane.JPG" alt="Sheribane">
+        </div>
+
+        <div class="div3">
+            <div class="about">
+                <h1>Hi there!<br> I'm Sheribane Hetemi.</h1>
+                <p>I'm a 22 year old girl who loves Web Design.</p>
+                <button onclick="location.href='#container'" type="button">Contact Me</button>
+                
+            </div>
+        </div>
+
+        <div class="div4" id="div4"> 
+            <div class="skills">
+                <h1>Skills</h1>
+            </div>
+        </div>
+
+        <div class="div5"> 
+            <div class="icons">
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i><br>
+                <i class="fa-brands fa-js"></i>
+                <i class="fa-brands fa-wordpress"></i><br>
+                <i class="fa-brands fa-elementor"></i>
+                <i class="fa-brands fa-figma"></i>
+            </div>
+        </div>
+     </div>
+
+       <div class="container" id="container">
+            <div class="get-in-touch">
+                <h3>Get in touch with me</h3>
+                <h6>Have any questions? I'd love to hear from you. </h6>
+    
+                <div class="form">
+                     <form id="myForm" onsubmit="return Validate() " method="post">
+                    <label for="name" id="fname">Your name</label><br>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="femail" id="femail">Your Email*</label><br>
+                    <input type="text" id="email" name="email"><br>
+                    <label for="fmessage" id="fmessage">Your Message*</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+                    <input type="submit"class="submit" id="submit"></input>
+                    </form>
+                </div>
+             </div>
+        </div>
+    
+</body>
+</html>
