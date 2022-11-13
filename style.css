@@ -101,7 +101,8 @@ button:hover{
     color: #EDE9E6;
     }
 
-.div4 { grid-area: 6 / 1 / 11 / 6;
+.div4 {
+    grid-area: 6 / 1 / 11 / 6;
     background-color: #4469B8;
     margin-top: 5em;
     gap:0;
@@ -116,7 +117,8 @@ button:hover{
 
     }
 
-.div5 { grid-area: 6 / 6 / 11 / 11;
+.div5 { 
+    grid-area: 6 / 6 / 11 / 11;
     margin-top: 10em;
     margin-left: 13em;
    }
@@ -204,5 +206,100 @@ form #submit{
     font-size: 25px;
     font-weight: 600;
     text-transform: uppercase;
+    }
+
+
+    @media only screen and (max-width: 600px) {
+
+        
+        
+        .div1 {
+            width:500px;
+        }
+
+        .div1 ul {
+            margin-left: 4em;
+            font-size: 20px;
+        }
+
+        .div2{
+            width:600;
+          
+        }
+
+        .div2 img{
+            width:300px;
+            height:400px;
+            margin-left:8em;
+            margin-top: -2em;
+            border-radius: 40%;
+            box-shadow:  10px 10px 1px  #4469B8;
+
+        }
+
+        .div3{
+           margin-top: 25em;
+           width: 600px;
+        }
+        .div3 .about{
+            margin-left: -15em;
+        }
+
+        .div3 .about h1{
+            font-size: 28px;   
+        }
+
+        .div3 .about p{
+            font-size: 20px;  
+        }
+
+        .div3 button{
+            font-size: 18px;
+            width:130px;
+            height:40px;
+            margin-top: -5px;
+        }
+
+        .div4{
+            width:250px;
+            height:300px
+        }
+
+        .div4 .skills h1{
+            font-size: 50px;
+            align-items: center;
+            
+        }
+
+        .div5 .icons{
+           font-size: 70px;
+           margin-top: -1em;
+           margin-left:-1.5em;
+        }
+
+        .container{
+           margin-top:-23em;
+           margin-left: -20em;
+           margin-bottom: 3em;
+        }
+
+        .container .get-in-touch h3{
+            font-size: 20px;
+            margin-left: 0.5em;
+            width:400px
+        }
+
+        .container .get-in-touch h6{
+            font-size: 15px;
+            margin-left: 0.5em;
+            width:350px;
+        }
+
+        .container .form #submit{
+            font-size: 15px;
+            width:100px;
+            height:30px;
+        }
+        
     }
     
